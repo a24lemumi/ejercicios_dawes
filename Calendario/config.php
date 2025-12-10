@@ -1,10 +1,8 @@
 <?php
-    #array de idiomas
-    // Sustituye este comentario por la descripción del array
+    // Array de idiomas
     array("Español", "Inglés","Francés", "Aleman","Italiano","Portugués");
 
-    #array con el cuestionario.
-    // Sustituye este comentario por la descripción del array
+    // Array con el cuestionario.
     $test = array(
         array ("pregunta" => "The room where secretaries work is called an .....",
             "Tipo"=>"text",
@@ -46,4 +44,5 @@
             "Respuesta"=>"It snows",
             "Acierto"=>1,
             "Fallo"=>-0.25)
+
     );
